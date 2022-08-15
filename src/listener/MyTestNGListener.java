@@ -12,8 +12,7 @@ public class MyTestNGListener implements ITestListener{
 		System.out.println(result.getName());
 		//System.out.println(result.getTestContext().getAttribute(name));
 		System.out.println(result.getStatus());
-		System.out.println("Checking the github updates");
-		System.out.println("Checking the github updates- third update");
+		System.out.println("Updates - Latest 1");
 		System.out.println(result.getThrowable().getMessage());
 	}
 	
